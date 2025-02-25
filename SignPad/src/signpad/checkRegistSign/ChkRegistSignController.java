@@ -76,7 +76,7 @@ public class ChkRegistSignController implements Initializable {
             e.printStackTrace();
         }
     }
-    //
+
     private void handleBtnCancelAction(ActionEvent actionEvent) {
         Platform.exit();
     }
