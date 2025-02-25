@@ -81,3 +81,4 @@ public class ChkRegistSignController implements Initializable {
         Platform.exit();
     }
 }
+
