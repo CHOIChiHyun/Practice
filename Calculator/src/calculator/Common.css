@@ -1,0 +1,19 @@
+.Main {
+	-fx-background-color: #DCEBFF;
+}
+
+.buttons {
+	-fx-background-color: #D1D1D1;
+}
+
+.buttons:hover {
+	-fx-background-color: #828282;
+}
+
+#btnClose:hover {
+	-fx-background-color: red;
+}
+
+#lblResult {
+	-fx-background-color: white;
+}
