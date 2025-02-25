@@ -1,0 +1,18 @@
+.hbox {
+    -fx-background-color: white;
+}
+
+.stackPane {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: lightgray;
+}
+
+.buttons {
+    -fx-background-color: #D1D1D1;
+}
+
+.buttons:hover {
+    -fx-background-color: #828282;
+}

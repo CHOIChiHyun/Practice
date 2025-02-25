@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" stylesheets="@../utility/Common.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="signpad.signpad.SignpadController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="lblName" text="Label" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="200.0" prefWidth="400.0" styleClass="hbox">
+         <children>
+            <StackPane prefHeight="200.0" prefWidth="350.0" styleClass="stackPane">
+               <children>
+                  <Canvas id="signpad" fx:id="canvas" height="200.0" width="350.0" />
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="400.0" spacing="20.0">
+         <children>
+            <Button fx:id="btnOk" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" styleClass="buttons" text="확인" />
+            <Button fx:id="btnClear" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" styleClass="buttons" text="지우기" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
