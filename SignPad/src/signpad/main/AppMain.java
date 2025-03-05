@@ -23,5 +23,5 @@ public class AppMain extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    // practice branch test
+    // push/pull test(push할때 로그인 인증 해야하는지 test1)
 }
