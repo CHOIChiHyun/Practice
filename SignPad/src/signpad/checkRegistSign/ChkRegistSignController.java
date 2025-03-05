@@ -15,6 +15,7 @@ import javafx.scene.image.WritableImage;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import signpad.utility.Log;
 
 import java.io.IOException;
 import java.net.URL;
