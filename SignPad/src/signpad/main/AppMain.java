@@ -22,7 +22,7 @@ public class AppMain extends Application {
 
     public static void main(String[] args) {
         launch(args);
+        System.out.println("git test");
+        System.out.println("git test2");
     }
-    // fork commit test1
-    // fork commit test2
 }
