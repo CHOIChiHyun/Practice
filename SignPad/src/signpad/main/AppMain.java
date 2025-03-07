@@ -26,4 +26,5 @@ public class AppMain extends Application {
     // push/pull test(push할때 로그인 인증 해야하는지 test1)
     // 노트북에서 clone 테스트 -> 변경 후 push
     // PC에서 pull 이후 수정 후 다시 push -> 노트북에서 pull 필요
+    // 노트북에서 pull 완료 이후 재 push
 }
