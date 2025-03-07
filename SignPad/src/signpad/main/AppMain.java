@@ -24,4 +24,5 @@ public class AppMain extends Application {
         launch(args);
     }
     // push/pull test(push할때 로그인 인증 해야하는지 test1)
+    // 노트북에서 clone 테스트 -> 변경 후 push
 }
